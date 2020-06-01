@@ -1,7 +1,17 @@
 <html>
 <body>
-<svg width="400" height="400">
-    <circle cx="100" cy="100" r="80" stroke="black" stroke-width="3" fill="red"/>
+<h2>use "svg"</h2>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <use xlink:href="sample.svg#Layer_1"/>
 </svg>
+
+<hr/>
+<h2>use "img"</h2>
+<img src="sample.svg" width="200"/>
+
+<hr/>
+<h2>use "object"</h2>
+<object type="image/svg+xml" data="sample.svg" width="200"/>
+
 </body>
 </html>
