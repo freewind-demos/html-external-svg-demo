@@ -1,8 +1,8 @@
 {
-    "scripts": {
-        "start": "http-server . -c-1 -o"
-    },
-    "devDependencies": {
-        "http-server": "0.12.3"
-    }
+  "scripts": {
+    "start": "http-server . -c-1 -o"
+  },
+  "devDependencies": {
+    "http-server": "0.12.3"
+  }
 }
